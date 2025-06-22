@@ -1581,14 +1581,14 @@ WaveSchedule
 				TFBot
 				{
 					Class Heavyweapons
-					Skill Easy
+					Skill Normal
 					Attributes Aggressive
 					Tag special_main_left
 				}
 				TFBot
 				{
 					Class Heavyweapons
-					Skill Easy
+					Skill Normal
 					Attributes Aggressive
 					Tag special_main_right
 				}
