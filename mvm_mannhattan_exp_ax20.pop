@@ -3196,7 +3196,7 @@ WaveSchedule
 				Item "Full Metal Drill Hat"
 				ClassIcon soldier_barrage
 				Health 32000
-				Scale 1.9
+				//Scale 1.8
 				Attributes MiniBoss
 				Attributes UseBossHealthBar
 				Attributes HoldFireUntilFullReload
