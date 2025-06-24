@@ -2174,9 +2174,9 @@ WaveSchedule
 			Where spawnbot_main2
 			WaitForAllDead 3aa
 			TotalCurrency 	75
-			TotalCount 6
-			SpawnCount 2
-			MaxActive 2
+			TotalCount 9
+			SpawnCount 3
+			MaxActive 4
 			WaitBeforeStarting 10
 			WaitBetweenSpawns 0
 			
