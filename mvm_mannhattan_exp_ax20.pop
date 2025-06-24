@@ -2001,7 +2001,7 @@ WaveSchedule
 			SpawnCount 2
 			MaxActive 10
 			WaitBeforeStarting 15
-			WaitBetweenSpawns 5
+			WaitBetweenSpawns 6
 			TFBot
 			{
 				Class Heavyweapons
