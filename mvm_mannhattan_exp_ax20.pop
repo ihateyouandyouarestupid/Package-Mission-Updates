@@ -2744,12 +2744,12 @@ WaveSchedule
 				Target wave_start_relay
 				Action RunScriptCode
 				Param "
-				ClientPrint(null,3,`\x0799CCFFBlimp deployed with 16k (16000) HP!`)
+				ClientPrint(null,3,`\x0799CCFFBlimp deployed with 15k (15000) HP!`)
 				"
 			}
 		    Tank
             {
-                Health 16000
+                Health 15000
 				Speed 100
 				DisableSmokestack 1 [$SIGSEGV]
                 Classicon blimp2_lite
