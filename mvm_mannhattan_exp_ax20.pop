@@ -2861,7 +2861,7 @@ WaveSchedule
 			Where spawnbot_main0
 			Where spawnbot_main1_slow
 			Where spawnbot_upper2
-			WaitForAllSpawned 5aa
+			WaitForAllDead 5aa
 			TotalCurrency 100
 			TotalCount 4
 			SpawnCount 1
@@ -2879,17 +2879,17 @@ WaveSchedule
 		}
 		WaveSpawn
 		{
-			Name 5bb
+			Name 5bd
 			Where spawnbot_main0
 			Where spawnbot_main1
 			Where spawnbot_upper2
-			WaitForAllSpawned 5aa
+			WaitForAllDead 5aa
 			TotalCurrency 50
 			TotalCount 6
 			SpawnCount 2
 			MaxActive 2
-			WaitBeforeStarting 20
-			WaitBetweenSpawns 15
+			WaitBeforeStarting 10
+			WaitBetweenSpawns 20
 			TFBot
 			{
 				Template T_TFBot_Giant_Scout_FAN
@@ -2902,7 +2902,7 @@ WaveSchedule
 			Where spawnbot_main0
 			Where spawnbot_main1
 			Where spawnbot_upper2
-			WaitForAllSpawned 5aa
+			WaitForAllDead 5aa
 			TotalCurrency 50
 			TotalCount 30
 			SpawnCount 5
