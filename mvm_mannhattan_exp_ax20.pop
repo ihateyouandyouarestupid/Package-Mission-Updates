@@ -1138,14 +1138,22 @@ WaveSchedule
         TFBot
 		{
 			Template T_TFBot_Sniper
-			Skill Hard
+			Item "The Machina"
+			Name "Machina Razorback Sniper"
+			Item "The Razorback"
+			Skill Expert
+			CharacterAttributes
+			{
+				"SRifle Charge rate increased" 0.8
+				"projectile penetration" 1
+			}
         }
 	}
 	Mission
 	{
 		Objective Engineer  
 
-		InitialCooldown 40
+		InitialCooldown 0
 		Where spawnbot_upper0
 		Where spawnbot_main1
 		Where spawnbot_upper2
@@ -2567,11 +2575,11 @@ WaveSchedule
 			Where spawnbot_main2
 			WaitForAllDead 4aa
 			TotalCurrency 100
-			TotalCount 7
+			TotalCount 6
 			SpawnCount 1
 			MaxActive 2
 			WaitBeforeStarting 10
-			WaitBetweenSpawns 10
+			WaitBetweenSpawns 12
 			TFBot
 			{
 				Template T_TFBot_Giant_Scout_FAN
@@ -2897,7 +2905,7 @@ WaveSchedule
 			Where spawnbot_upper2
 			WaitForAllSpawned 5aa
 			TotalCurrency 50
-			TotalCount 25
+			TotalCount 30
 			SpawnCount 5
 			MaxActive 10
 			WaitBeforeStarting 10
