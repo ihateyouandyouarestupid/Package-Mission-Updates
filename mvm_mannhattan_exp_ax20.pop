@@ -3771,7 +3771,7 @@ WaveSchedule
 					Class Soldier
 					Name "Giant Rapid Conch Soldier"
 					ClassIcon soldier_conch_spammer
-					Health 4000
+					Health 4200
 					Skill Expert
 					Attributes AlwaysCrit
 					WeaponRestrictions PrimaryOnly
