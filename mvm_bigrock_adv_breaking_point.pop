@@ -960,11 +960,11 @@ WaveSchedule
 			Where spawnbot
 			WaitForAllDead 4ab
 			TotalCurrency 80
-			Totalcount 12
+			Totalcount 16
 			Spawncount 2
 			Maxactive 7
 			WaitBeforeStarting 0
-			WaitBetweenSpawns 10
+			WaitBetweenSpawns 8
 			Squad
 			{
 				TFBot
